@@ -2,9 +2,12 @@
   import { base } from "$app/paths";
 </script>
 
-<h1>sveltekit-gh-pages</h1>
-<p>Deployed to GitHub Pages</p>
-<p>
-  Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation
-</p>
-<a href="{base}/about">About</a>
+<header class="py-8 text-xs">
+  <div class="container mx-auto">
+    <div class="flex flex-row">
+      <div><h1>Wouter Haringsma</h1></div>
+      <div class="grow text-center">Articles</div>
+      <div class="flex justify-end" ><a href="{base}/portfolio">Portfolio</a></div>
+    </div>
+  </div>
+</header>
